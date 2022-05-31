@@ -1,0 +1,67 @@
+
+body,
+body * {    /** zenklas * duoda visiems elementams skirtus stilius **/
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+}
+
+:root {
+    --main-color: #03a9f4;
+}
+
+.bg-main {
+    background-color: var(--main-color);
+}
+/* 
+.a{
+    box-sizing: border-box; /** kas yra viduje susicentruoja**/
+    /* background-color: red;
+    float: left;
+    width: 50%;
+    border: 10px solid black;
+    padding: 100px;
+    
+    
+}
+.b{
+    box-sizing: border-box;
+    background-color: green;
+    float: left;
+    width: 50%;
+    border: 10px solid black;
+    padding: 100px;
+} */ 
+
+
+/* PAVYZDYS :root{  
+    --padding:50px;
+    --border:10px;
+    --c1:red;
+
+}
+.a{
+    width: calc(50% - 2 * var(--border) - 2 * var(--padding));
+    background-color: red;
+    float: left;
+    width: calc(50% - 100px); 
+    border: var(--border) solid black;
+    height: 100px;
+    padding: var(--padding);
+    background-color: var(--c1);
+    
+}
+.b{
+    background-color: green;
+    float: left;
+    width: calc(50% - 2 * var(--border) - 2 * var(--padding));
+    border: var(--border) solid black;
+    height: 100px;
+    padding: var(--padding);
+} */
