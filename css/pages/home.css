@@ -13,3 +13,38 @@
 @import '../components/progress-bar.css';
 
 /* cusome style goes below this line */
+/* hero -start */
+section.bg-main{
+    background-image: url(../../images/background.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+.hero{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero > .logo{
+    height: 60px;
+    
+
+}
+.hero > .title{
+    font-size: 70px;
+    text-transform: uppercase;
+
+}
+.hero > .description{
+    font-size: 20px;
+
+}
+/* hero - end */
+
+/* main - start */
+/* main - end */
+
+/* footer - start */
+/* footer - end */
