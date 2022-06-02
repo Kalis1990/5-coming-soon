@@ -77,10 +77,73 @@ section.bg-main{
 .section-description > a:hover{
     text-decoration: underline;  
 }
-/* hero - end */
+footer.container {
+    padding-top: 0;
+}
+footer > .row {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    border-bottom: 2px solid #fff;
+}
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fffa;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.footer-bottom > .logo {
+    height: 60px;
+    margin: 40px 0;
+}
+.footer-bottom > .Copyright {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.footer-bottom a {
+    color: #fff;
+}
+.socials{
+    color: #777;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 
-/* main - start */
-/* main - end */
-
-/* footer - start */
-/* footer - end */
+}
+.socials > a{
+    text-decoration: none;
+    font-size: 30px;
+    color:#fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 50px;
+    
+}
+.socials > a:hover{
+    background-color: #fff;
+    color: var(--main-color);
+    
+}
+.Copyright > *{
+    position: relative;
+}
+.Copyright > *::after {
+    content: '';
+    width: 0.6px;
+    height: 20px;
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: -15px;
+    transform: translate(50%, -50%);
+}
+.Copyright > *:last-child::after {
+    display: none;
+}
