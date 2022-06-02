@@ -23,9 +23,11 @@ section.bg-main{
 }
 .hero{
     text-align: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    align-items: center;
 }
 .hero > .logo{
     height: 60px;
