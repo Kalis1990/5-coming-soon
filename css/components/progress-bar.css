@@ -1,0 +1,65 @@
+.progress-bar{
+    /* --bar-width:90%; */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+.progress-bar > .top{
+    display: flex;
+    justify-content: space-between;
+
+}
+.progress-bar > .top > .label{
+
+}
+.progress-bar > .top > .value{
+
+}
+.progress-bar > .bottom{
+    height: 6px; 
+    background-color: #ccc;
+    border-radius: 40px;
+    overflow: hidden;
+
+}
+.progress-bar > .bottom > .bar{ 
+    /* width: var(--bar-width); kaip variantas prie progress baro irasyti style"--bar-width: 86%"  */
+    width: 90%;
+    height: 100%;
+}
+.progress-bar > .bottom > .bar > .loader{ 
+    /* width: var(--bar-width); kaip variantas prie progress baro irasyti style"--bar-width: 86%"  */
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-color);
+    animation: loading 2s;
+}
+@keyframes loading{
+    0%{
+        width:0;
+    }
+    100%{
+        width:100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .progress-bar > .bottom > .bar.bar-1{ 
+    width: 90%;
+}
+@keyframes w1{
+    0%{
+        width: 0;
+    }
+} */
