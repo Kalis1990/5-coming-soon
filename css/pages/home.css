@@ -165,6 +165,12 @@ footer > .row {
 .Copyright > *:last-child::after {
     display: none;
 }
+.back-to-top{
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right:30px
+}
 
 @media(max-width: 700px){
     .main-content{
